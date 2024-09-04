@@ -43,8 +43,9 @@ public class Noya {
         }
         
         for (i = 0; i < nprod; i++)
-            pr[1].viewprod();*/
-         */
+            pr[1].viewprod();
+            */
+         
         
         
     }
