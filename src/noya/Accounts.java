@@ -6,6 +6,7 @@ public class Accounts {
     int id;
     String fname, lname, email, username, pass;
 
+
     
     public void addAccount(int id, String fname, String lname, String email, String username, String password) {
         this.id = id;
