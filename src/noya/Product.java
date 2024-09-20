@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Product {
     private static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+     public void getProduct() {
         System.out.printf("%-10s %-10s %-10s %-10s %-10s\n", "Product ID", "Name", "Price", "Status", "TEP");
         
      
@@ -24,7 +24,7 @@ public class Product {
         System.out.println("Enter number of products: ");
         int nprod = getIntInput("Enter number of details: ");
 
-        // Input details for each product
+       
         for (int i = 0; i < nprod; i++) {
             System.out.println("Enter details for product " + (i + 1) + ":");
             int id = getIntInput("ID: ");
@@ -64,5 +64,8 @@ public class Product {
         scanner.nextLine(); 
         return scanner.nextLine();
     }
+
+  
+    
 }
 
