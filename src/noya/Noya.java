@@ -5,15 +5,15 @@ public class Noya {
 
     public static void main(String[] args) {
         
-         Grades grd = new Grades();
-        grd.getGrades();
+        Grades grd = new Grades();
+        grd.getGrade();
         
-        /*Product pr = new Product();
+        /* Product pr = new Product();
         pr.manageProducts();
-        */
-        /*Account ac = new Account ();
-        ac.manageAccounts();
-        */
+        
+         /* Account acc = new Account ();
+        acc.Accounts();
+         */
 
     }
 }
